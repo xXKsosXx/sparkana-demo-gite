@@ -3,10 +3,11 @@ import { structureTool } from "sanity/structure";
 import { schemaTypes } from "./src/sanity/schemaTypes";
 
 export default defineConfig({
-  name: "ecrin-de-la-biche",
+  name: "default",
   title: "L'Ecrin de la Biche",
   projectId: "s8ksydon",
   dataset: "production",
+  basePath: "/studio",
   plugins: [structureTool()],
   schema: {
     types: schemaTypes,
