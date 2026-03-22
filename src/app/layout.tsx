@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Noto_Serif, Manrope } from "next/font/google";
 import "./globals.css";
+import ForestSound from "@/components/ForestSound";
 
 const notoSerif = Noto_Serif({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="fr" className={`${notoSerif.variable} ${manrope.variable}`}>
       <body className="font-body antialiased bg-background text-on-surface">
         {children}
+        <ForestSound />
       </body>
     </html>
   );

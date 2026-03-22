@@ -1,4 +1,5 @@
 import { ChevronDown } from "lucide-react";
+import DisponibiliteBadge from "./DisponibiliteBadge";
 
 const badges = [
   "4 Tiny Houses · 100-250€/nuit",
@@ -25,9 +26,15 @@ export default function Hero() {
         <h1 className="font-headline text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-tight mb-4">
           L&apos;Écrin de la Biche
         </h1>
-        <p className="font-headline italic text-base sm:text-lg md:text-xl text-white/80 mb-10">
+        <p className="font-headline italic text-base sm:text-lg md:text-xl text-white/80 mb-6">
           Safran · Truffes · Forêt de Cèdres
         </p>
+
+        {/* Badge disponibilité dynamique */}
+        <div className="flex justify-center mb-8">
+          <DisponibiliteBadge />
+        </div>
+
         {/* Boutons — empilés full width sur mobile */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 w-full sm:w-auto">
           <a

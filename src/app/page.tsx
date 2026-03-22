@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Hebergements from "@/components/Hebergements";
+import Galerie from "@/components/Galerie";
 import Chiffres from "@/components/Chiffres";
 import Experiences from "@/components/Experiences";
 import Avis from "@/components/Avis";
@@ -36,6 +37,7 @@ export default async function Home() {
       <Nav />
       <Hero />
       <Hebergements data={hebergements} />
+      <Galerie />
       <Chiffres />
       <Experiences />
       <Avis data={avis} />
