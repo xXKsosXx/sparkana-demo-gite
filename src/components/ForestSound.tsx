@@ -27,10 +27,7 @@ export default function ForestSound() {
   return (
     <>
       <audio ref={audioRef} loop>
-        <source
-          src="https://assets.mixkit.co/sfx/preview/mixkit-forest-ambience-1186.mp3"
-          type="audio/mpeg"
-        />
+        <source src="/audio/foret.mp3" type="audio/mpeg" />
       </audio>
 
       <div

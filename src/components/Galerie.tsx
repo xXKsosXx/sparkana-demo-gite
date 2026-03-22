@@ -4,12 +4,12 @@ import { useFadeIn } from "./useFadeIn";
 import GalerieLightbox from "./GalerieLightbox";
 
 const photos = [
-  { src: "/images/tiny house.png", titre: "Tiny House des Cèdres" },
-  { src: "/images/Cabane dans les arbres.png", titre: "Cabane dans les Arbres" },
-  { src: "/images/Kerterre.png", titre: "La Kerterre" },
-  { src: "/images/Hero.png", titre: "La forêt de cèdres" },
-  { src: "/images/gastronomie.jpg", titre: "Gastronomie du terroir" },
-  { src: "/images/mont-bouquet.jpg", titre: "Le Mont Bouquet" },
+  { src: "/images/galerie-1.png", titre: "Tiny House des Cèdres" },
+  { src: "/images/galerie-2.png", titre: "Cabane dans les Arbres" },
+  { src: "/images/galerie-3.png", titre: "La Kerterre" },
+  { src: "/images/galerie-4.png", titre: "La forêt de cèdres" },
+  { src: "/images/galerie-5.png", titre: "Gastronomie du terroir" },
+  { src: "/images/galerie-6.png", titre: "Le Mont Bouquet" },
 ];
 
 export default function Galerie() {
